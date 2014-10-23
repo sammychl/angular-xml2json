@@ -1,0 +1,24 @@
+{
+  "name": "angular-xml2json",
+  "main": "angular-xml2json.js",
+  "version": "0.0.1",
+  "authors": [
+    "sammy li <sammychl@hotmail.com>"
+  ],
+  "description": "parses xml to json objects. eg. var convertedJson = ngXml2json.parser(XML)",
+  "keywords": [
+    "xml",
+    "json",
+    "convert",
+    "xml2json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
