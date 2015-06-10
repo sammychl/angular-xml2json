@@ -93,6 +93,8 @@ xml2json = {
             }
 
             objname += "." + tagnamn;
+            objname = objname.replace(/-/g, "");
+
             var pobject = objname.substring(0, objname.lastIndexOf("."));
             if (eval("typeof " + pobject) != "object") {
                 preeval += pobject + "={value:" + pobject + "};\n"
