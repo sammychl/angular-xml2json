@@ -1,7 +1,7 @@
 {
   "name": "angular-xml2json",
   "main": "angular-xml2json.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "sammy li <sammychl@hotmail.com>"
   ],
@@ -21,5 +21,5 @@
     "test",
     "tests"
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
