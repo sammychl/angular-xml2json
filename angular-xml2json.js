@@ -30,6 +30,7 @@
 
 xml2json = {
     parser: function (xmlcode, ignoretags, debug) {
+	xmlcode = xmlcode.replace(/:/g, '')
         if (!ignoretags) {
             ignoretags = ""
         }
