@@ -30,7 +30,7 @@
 
 xml2json = {
     parser: function (xmlcode, ignoretags, debug) {
-	xmlcode = xmlcode.replace(/:(?![\w\s]+<)/g, '')
+	xmlcode = xmlcode.replace(/:(?![\w\s]+<)/g, '-')
         if (!ignoretags) {
             ignoretags = ""
         }
